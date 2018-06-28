@@ -63,5 +63,16 @@ namespace ScrabbleScore.Models
       this.SetScore(theScore);
       return this.GetScore();
     }
+    //End Word Class
+  }
+  class Program
+  {
+    public static void Main()
+    {
+      Console.WriteLine("Enter a single word to find its unmodified scrabble value:");
+      Word newWord = new Word(Console.ReadLine());
+      int userFinalScore = newWord.GetFinalScore();
+      Console.WriteLine("The Unmodified scrabble score of " + newWord.GetWord() + " is: " + userFinalScore);
+    }
   }
 }
