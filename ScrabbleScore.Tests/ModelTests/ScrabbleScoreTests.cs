@@ -1,6 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ScrabbleScore.Models;
 using System.Linq;
+using System.Collections.Generic;
 
 namespace ScrabbleScore.Test
 {
@@ -33,7 +34,7 @@ namespace ScrabbleScore.Test
     }
 
     [TestMethod]
-    public void GetScore_ConvertsToNumber_True()
+    public void GetFinalScore_ConvertsToNumber_True()
     {
       //Assign
       Word newWord = new Word("a");
@@ -41,6 +42,16 @@ namespace ScrabbleScore.Test
       int score = newWord.GetFinalScore();
       //Assert
       Assert.AreEqual(score, 1);
+    }
+    [TestMethod]
+    public void GetFinalScore_ConvertsMultiLetterWordToNumber_True()
+    {
+      //Assign
+      Word newWord = new Word("cat");
+      //Act
+      int score = newWord.GetFinalScore();
+      //Assert
+      Assert.AreEqual(score, 5);
     }
 
   }
