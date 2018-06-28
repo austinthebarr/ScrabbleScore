@@ -1,0 +1,6 @@
+/Users/Guest/Desktop/ScrabbleScore.Solution/ScrabbleScore/bin/Debug/netcoreapp1.1/ScrabbleScore.deps.json
+/Users/Guest/Desktop/ScrabbleScore.Solution/ScrabbleScore/bin/Debug/netcoreapp1.1/ScrabbleScore.dll
+/Users/Guest/Desktop/ScrabbleScore.Solution/ScrabbleScore/bin/Debug/netcoreapp1.1/ScrabbleScore.pdb
+/Users/Guest/Desktop/ScrabbleScore.Solution/ScrabbleScore/obj/Debug/netcoreapp1.1/ScrabbleScore.AssemblyInfo.cs
+/Users/Guest/Desktop/ScrabbleScore.Solution/ScrabbleScore/obj/Debug/netcoreapp1.1/ScrabbleScore.dll
+/Users/Guest/Desktop/ScrabbleScore.Solution/ScrabbleScore/obj/Debug/netcoreapp1.1/ScrabbleScore.pdb
