@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 
 namespace ScrabbleScore.Models
 {
@@ -27,6 +28,12 @@ namespace ScrabbleScore.Models
     public void SetScore(int newScore)
     {
       _userScore = newScore;
+    }
+    public char[] DisassembleWord()
+    {
+      string userWord = this.GetWord();
+      char[] letterArray = userWord.ToLower().ToCharArray();
+      return letterArray;
     }
     public int GetFinalScore()
     {
