@@ -71,8 +71,8 @@ namespace ScrabbleScore.Models
     {
       Console.WriteLine("Enter a single word to find its unmodified scrabble value:");
       Word newWord = new Word(Console.ReadLine());
-      int userFinalScore = newWord.GetFinalScore();
-      Console.WriteLine("The Unmodified scrabble score of " + newWord.GetWord() + " is: " + userFinalScore);
+      // int userFinalScore = newWord.GetFinalScore();
+      Console.WriteLine("The Unmodified scrabble score of " + newWord.GetWord() + " is: " + newWord.GetFinalScore());
     }
   }
 }
